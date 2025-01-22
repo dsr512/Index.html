@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSR GAMING</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 80px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 10px red, 0 0 20px blue, 0 0 30px green;
+            animation: rgbGlow 2s infinite alternate;
+        }
+
+        @keyframes rgbGlow {
+            0% { text-shadow: 0 0 10px red, 0 0 20px blue, 0 0 30px green; }
+            25% { text-shadow: 0 0 10px blue, 0 0 20px green, 0 0 30px red; }
+            50% { text-shadow: 0 0 10px green, 0 0 20px red, 0 0 30px blue; }
+            75% { text-shadow: 0 0 10px yellow, 0 0 20px cyan, 0 0 30px magenta; }
+            100% { text-shadow: 0 0 10px cyan, 0 0 20px magenta, 0 0 30px yellow; }
+        }
+    </style>
+</head>
+<body>
+    <h1>DSR GAMING</h1>
+</body>
+</html>
